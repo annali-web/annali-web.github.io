@@ -17,6 +17,7 @@ header nav,
 
 .bg-overlay {
     background: url("../images/hero-background.png") scroll no-repeat center center transparent;
+    background-size: cover;
 }
 
 .btn {
@@ -26,7 +27,7 @@ header nav,
     font-size: 1.4rem;
     letter-spacing: .35rem;
     padding: 1rem 4rem;
-    margin: 0 3rem;
+    margin: 0 3rem 2rem;
     transition: .4s;
     
 }
