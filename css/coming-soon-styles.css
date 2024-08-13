@@ -161,3 +161,30 @@ footer p, footer a {
 footer .socialMedia {
     margin-bottom: 20px;
 }
+
+
+
+@media screen and (max-width: 575px){
+    .container {
+        padding: 0;
+
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .name {
+        font-size: 3rem;
+    }
+
+    h1 {
+        font-size: 5rem;
+    }
+
+    .btn {
+        margin: 0 0 2rem;
+    }
+
+    .countdown .count {
+        font-size: 3rem;
+    }
+}
