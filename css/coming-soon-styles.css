@@ -18,10 +18,11 @@ header nav,
     display: none;
 }
 
-/* .bg-overlay {
-    background: url("../images/hero-background.png") scroll no-repeat center center transparent;
+
+.bg-overlay {
+    background: url("../images/hero-background-raw.png") scroll no-repeat center center transparent;
     background-size: cover;
-} */
+}
 
 .btn {
     border-radius: 2.4rem;
@@ -216,6 +217,9 @@ footer .socialMedia {
 
 
 @media screen and (max-width: 575px){
+
+    
+
     .container {
         padding: 0;
 
