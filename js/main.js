@@ -1,3 +1,4 @@
+const countdown = document.querySelector('.countdown');
 const daysDiv = document.querySelector('.countdown .days');
 const hrsDiv = document.querySelector('.countdown .hrs');
 const minsDiv = document.querySelector('.countdown .mins');
@@ -28,6 +29,13 @@ const intvl = setInterval(() => {
     hrsDiv.innerHTML = hours;
     minsDiv.innerHTML = mins;
     secsDiv.innerHTML = secs;
+
+    // if launch date passed
+    if (distance < 0) {
+        clearInterval(intvl);
+
+        countdown.innerHTML = 'Website has been launched!';
+    }
 
 
 }, 1000);
