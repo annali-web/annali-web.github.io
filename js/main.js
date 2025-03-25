@@ -6,7 +6,7 @@ const secsDiv = document.querySelector('.countdown .secs');
 
 
 // launch date (ms)
-const launchDate = new Date('Sept 20, 2024 08:00:00').getTime();
+const launchDate = new Date('Apr 20, 2025 08:00:00').getTime();
 
 // update every second
 const intvl = setInterval(() => {
